@@ -1,0 +1,264 @@
+class Assig1 {
+    
+            // Printing TELUSKO
+            // Printing "T"
+            public static void main (String args[])
+            {
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(i==0|| j==2)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "E"
+    
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(j==0|| i==2 ||i==0||i==4)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "L"
+    
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(j==0|| i==4)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "U"
+    
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<4;j++)
+                    {
+                        if(j==0||j==3||i==4)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "S"
+    
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(i==0||i==4||i==j)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                //Printing "K"
+    
+                for(int i=0;i<7;i++)
+                {
+                    for(int j=0;j<7;j++)
+                    {
+                        if(j==0 || i==(3-j) || i==3+j )
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "O"
+    
+                
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(i==0 || i==4 || j==0 || j==4 )
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+                System.out.println();
+                System.out.println();
+    
+    
+                // Printing INEURON
+    
+                //Printing "I"
+    
+                for(int i=0;i<6;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(i==0||i==5||j==2)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+                // Printing "N"
+    
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=0;j<5;j++)
+                    {
+                        if(j==0||j==4||i==j)
+                    
+                        System.out.print("* ");
+        
+                        else
+                        System.out.print("  ");
+                    }
+                    System.out.println();
+    
+                }
+                System.out.println();
+    
+               // Printing "E"
+    
+               for(int i=0;i<5;i++)
+               {
+                   for(int j=0;j<3;j++)
+                   {
+                       if(i==0||i==4||i==2 ||j==0)
+                   
+                       System.out.print("* ");
+       
+                       else
+                       System.out.print("  ");
+                   }
+                   System.out.println();
+    
+               }
+               System.out.println();
+    
+               //Printing "U"
+    
+               for(int i=0;i<5;i++)
+               {
+                   for(int j=0;j<4;j++)
+                   {
+                       if(j==0||j==3||i==4)
+                   
+                       System.out.print("* ");
+       
+                       else
+                       System.out.print("  ");
+                   }
+                   System.out.println();
+    
+               }
+               System.out.println();
+    
+               //Printing "R"
+               for(int i=0;i<5;i++)
+               {
+                   for(int j=0;j<4;j++)
+                   {
+                       if(i==0||i==2||j==0 ||i==j+1 || (i==1 && j==3))
+                   
+                       System.out.print("* ");
+       
+                       else
+                       System.out.print("  ");
+                   }
+                   System.out.println();
+    
+               }
+               System.out.println();
+    
+               //Printing "O"
+    
+               for(int i=0;i<5;i++)
+               {
+                   for(int j=0;j<5;j++)
+                   {
+                       if(i==0||i==4||j==0 ||j==4)
+                   
+                       System.out.print("* ");
+       
+                       else
+                       System.out.print("  ");
+                   }
+                   System.out.println();
+    
+               }
+               System.out.println();
+    
+               //Printing N
+    
+               for(int i=0;i<5;i++)
+               {
+                   for(int j=0;j<5;j++)
+                   {
+                       if(j==0||j==4||i==j)
+                   
+                       System.out.print("* ");
+       
+                       else
+                       System.out.print("  ");
+                   }
+                   System.out.println();
+    
+               }
+               System.out.println();
+
+
+            }   
+}
